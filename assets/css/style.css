@@ -117,9 +117,12 @@ a{
     display: flex;
     align-items: center;
 }
-
+.advantages__block{
+    padding-left: 80px;
+}
 .advantages__title{
     margin-left: 100px;
+    margin-bottom: 37px;
 }i
 .advantages__text-block{
     margin-top: 20px;
@@ -128,6 +131,10 @@ a{
 .tests-h2{
     font-size: 48px;
     margin-left: 100px;
+    margin-bottom: 90px;
+}
+.tests__block{
+    margin-left: 85px;
 }
 
 .tests__home{
@@ -143,19 +150,30 @@ a{
     font-size: 32px;
     padding-top: 30px;
 }
+.tests__p{
+    margin-bottom: 17px;
+}
+.tests__pp{
+    font-size: 24px;
+}
 .tests__line3{
     margin-top: 17px;
     padding-bottom: 17px;
 }
+
 .ideas{
     width: 1440px;
-    height: 900px;
+    height: 900px;   
+}
+.ideas__block{
+    margin-left: 60px;
 }
 .ideas__hr{
     width: 950px;
     margin-right: 345px;
     color: #EFEFEF;
     height: 10px;
+    margin-bottom: 28px;
 
 }
 .ideas__text-h2{
@@ -168,6 +186,14 @@ a{
 }
 .ideas__text-block{
     margin-bottom: 90px;
+    
+}
+.ideas__arrow-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    gap: 15px;
 }
 .footer{
     width: 1440px;
